@@ -74,3 +74,5 @@ If you need finer-grained control over the process, `TelegramPassport` class con
 
 #### Handle the result
 The result is delivered via the `onActivityResult` method in your activity with the request code you passed to `TelegramPassport.request`. Currently, the only meaningful parameter is `resultCode`, which is `RESULT_OK` if the authorization was successful and `RESULT_CANCELED` otherwise.
+
+  
